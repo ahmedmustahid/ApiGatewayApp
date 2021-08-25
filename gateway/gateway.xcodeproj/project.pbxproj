@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C1999F426D4F6CF00E445AD /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1999EF26D4F6CF00E445AD /* Empty.swift */; };
+		9C1999F526D4F6CF00E445AD /* CHATRatingsPredictorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1999F126D4F6CF00E445AD /* CHATRatingsPredictorClient.swift */; };
+		9C815E0226D4F60400F6F45B /* APIgatewayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C815E0126D4F60400F6F45B /* APIgatewayApp.swift */; };
+		9C815E0426D4F60400F6F45B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C815E0326D4F60400F6F45B /* ContentView.swift */; };
+		9C815E0626D4F60800F6F45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C815E0526D4F60800F6F45B /* Assets.xcassets */; };
+		9C815E0926D4F60800F6F45B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C815E0826D4F60800F6F45B /* Preview Assets.xcassets */; };
+		9C815E1326D4F60900F6F45B /* gatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C815E1226D4F60900F6F45B /* gatewayTests.swift */; };
+		9C815E1D26D4F60900F6F45B /* gatewayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C815E1C26D4F60900F6F45B /* gatewayUITests.swift */; };
+		E74043AFC09212D35A6896AE /* Pods_gateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17435E15752670DF7A42364C /* Pods_gateway.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C815E0F26D4F60800F6F45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C815DF626D4F60400F6F45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C815DFD26D4F60400F6F45B;
+			remoteInfo = gateway;
+		};
+		9C815E1926D4F60900F6F45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C815DF626D4F60400F6F45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C815DFD26D4F60400F6F45B;
+			remoteInfo = gateway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17435E15752670DF7A42364C /* Pods_gateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1999EF26D4F6CF00E445AD /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = "aws-apigateway-ios-swift/generated-src/Empty.swift"; sourceTree = SOURCE_ROOT; };
+		9C1999F026D4F6CF00E445AD /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSApiGatewayBridge.h; path = "aws-apigateway-ios-swift/generated-src/AWSApiGatewayBridge.h"; sourceTree = SOURCE_ROOT; };
+		9C1999F126D4F6CF00E445AD /* CHATRatingsPredictorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHATRatingsPredictorClient.swift; path = "aws-apigateway-ios-swift/generated-src/CHATRatingsPredictorClient.swift"; sourceTree = SOURCE_ROOT; };
+		9C1999F226D4F6CF00E445AD /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "aws-apigateway-ios-swift/generated-src/Bridging_Header.h"; sourceTree = SOURCE_ROOT; };
+		9C1999F326D4F6CF00E445AD /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "aws-apigateway-ios-swift/generated-src/Header.h"; sourceTree = SOURCE_ROOT; };
+		9C815DFE26D4F60400F6F45B /* gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gateway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C815E0126D4F60400F6F45B /* APIgatewayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIgatewayApp.swift; sourceTree = "<group>"; };
+		9C815E0326D4F60400F6F45B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C815E0526D4F60800F6F45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C815E0826D4F60800F6F45B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C815E0E26D4F60800F6F45B /* gatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gatewayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C815E1226D4F60900F6F45B /* gatewayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayTests.swift; sourceTree = "<group>"; };
+		9C815E1826D4F60900F6F45B /* gatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gatewayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C815E1C26D4F60900F6F45B /* gatewayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayUITests.swift; sourceTree = "<group>"; };
+		BEFBE31ED346BD0868B962F9 /* Pods-gateway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gateway.release.xcconfig"; path = "Target Support Files/Pods-gateway/Pods-gateway.release.xcconfig"; sourceTree = "<group>"; };
+		D11ADC8298F8B9D10856411F /* Pods-gateway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gateway.debug.xcconfig"; path = "Target Support Files/Pods-gateway/Pods-gateway.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C815DFB26D4F60400F6F45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74043AFC09212D35A6896AE /* Pods_gateway.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E0B26D4F60800F6F45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E1526D4F60900F6F45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475E26366EFE602A057D403E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11ADC8298F8B9D10856411F /* Pods-gateway.debug.xcconfig */,
+				BEFBE31ED346BD0868B962F9 /* Pods-gateway.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C815DF526D4F60400F6F45B = {
+			isa = PBXGroup;
+			children = (
+				9C815E0026D4F60400F6F45B /* gateway */,
+				9C815E1126D4F60900F6F45B /* gatewayTests */,
+				9C815E1B26D4F60900F6F45B /* gatewayUITests */,
+				9C815DFF26D4F60400F6F45B /* Products */,
+				475E26366EFE602A057D403E /* Pods */,
+				D692F6E88D2787E9C8A500A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C815DFF26D4F60400F6F45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C815DFE26D4F60400F6F45B /* gateway.app */,
+				9C815E0E26D4F60800F6F45B /* gatewayTests.xctest */,
+				9C815E1826D4F60900F6F45B /* gatewayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C815E0026D4F60400F6F45B /* gateway */ = {
+			isa = PBXGroup;
+			children = (
+				9C1999F026D4F6CF00E445AD /* AWSApiGatewayBridge.h */,
+				9C1999F226D4F6CF00E445AD /* Bridging_Header.h */,
+				9C1999F126D4F6CF00E445AD /* CHATRatingsPredictorClient.swift */,
+				9C1999EF26D4F6CF00E445AD /* Empty.swift */,
+				9C1999F326D4F6CF00E445AD /* Header.h */,
+				9C815E0126D4F60400F6F45B /* APIgatewayApp.swift */,
+				9C815E0326D4F60400F6F45B /* ContentView.swift */,
+				9C815E0526D4F60800F6F45B /* Assets.xcassets */,
+				9C815E0726D4F60800F6F45B /* Preview Content */,
+			);
+			path = gateway;
+			sourceTree = "<group>";
+		};
+		9C815E0726D4F60800F6F45B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C815E0826D4F60800F6F45B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C815E1126D4F60900F6F45B /* gatewayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C815E1226D4F60900F6F45B /* gatewayTests.swift */,
+			);
+			path = gatewayTests;
+			sourceTree = "<group>";
+		};
+		9C815E1B26D4F60900F6F45B /* gatewayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C815E1C26D4F60900F6F45B /* gatewayUITests.swift */,
+			);
+			path = gatewayUITests;
+			sourceTree = "<group>";
+		};
+		D692F6E88D2787E9C8A500A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17435E15752670DF7A42364C /* Pods_gateway.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C815DFD26D4F60400F6F45B /* gateway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C815E2026D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gateway" */;
+			buildPhases = (
+				F13F5CEB0E6C94BC74BF69C3 /* [CP] Check Pods Manifest.lock */,
+				9C815DFA26D4F60400F6F45B /* Sources */,
+				9C815DFB26D4F60400F6F45B /* Frameworks */,
+				9C815DFC26D4F60400F6F45B /* Resources */,
+				CA3115062CEA52921BF5DA8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gateway;
+			productName = gateway;
+			productReference = 9C815DFE26D4F60400F6F45B /* gateway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C815E0D26D4F60800F6F45B /* gatewayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C815E2326D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gatewayTests" */;
+			buildPhases = (
+				9C815E0A26D4F60800F6F45B /* Sources */,
+				9C815E0B26D4F60800F6F45B /* Frameworks */,
+				9C815E0C26D4F60800F6F45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C815E1026D4F60800F6F45B /* PBXTargetDependency */,
+			);
+			name = gatewayTests;
+			productName = gatewayTests;
+			productReference = 9C815E0E26D4F60800F6F45B /* gatewayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C815E1726D4F60900F6F45B /* gatewayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C815E2626D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gatewayUITests" */;
+			buildPhases = (
+				9C815E1426D4F60900F6F45B /* Sources */,
+				9C815E1526D4F60900F6F45B /* Frameworks */,
+				9C815E1626D4F60900F6F45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C815E1A26D4F60900F6F45B /* PBXTargetDependency */,
+			);
+			name = gatewayUITests;
+			productName = gatewayUITests;
+			productReference = 9C815E1826D4F60900F6F45B /* gatewayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C815DF626D4F60400F6F45B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9C815DFD26D4F60400F6F45B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9C815E0D26D4F60800F6F45B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9C815DFD26D4F60400F6F45B;
+					};
+					9C815E1726D4F60900F6F45B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9C815DFD26D4F60400F6F45B;
+					};
+				};
+			};
+			buildConfigurationList = 9C815DF926D4F60400F6F45B /* Build configuration list for PBXProject "gateway" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C815DF526D4F60400F6F45B;
+			productRefGroup = 9C815DFF26D4F60400F6F45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C815DFD26D4F60400F6F45B /* gateway */,
+				9C815E0D26D4F60800F6F45B /* gatewayTests */,
+				9C815E1726D4F60900F6F45B /* gatewayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C815DFC26D4F60400F6F45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C815E0926D4F60800F6F45B /* Preview Assets.xcassets in Resources */,
+				9C815E0626D4F60800F6F45B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E0C26D4F60800F6F45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E1626D4F60900F6F45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA3115062CEA52921BF5DA8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gateway/Pods-gateway-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gateway/Pods-gateway-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gateway/Pods-gateway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13F5CEB0E6C94BC74BF69C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gateway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C815DFA26D4F60400F6F45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1999F526D4F6CF00E445AD /* CHATRatingsPredictorClient.swift in Sources */,
+				9C815E0426D4F60400F6F45B /* ContentView.swift in Sources */,
+				9C815E0226D4F60400F6F45B /* APIgatewayApp.swift in Sources */,
+				9C1999F426D4F6CF00E445AD /* Empty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E0A26D4F60800F6F45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C815E1326D4F60900F6F45B /* gatewayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C815E1426D4F60900F6F45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C815E1D26D4F60900F6F45B /* gatewayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C815E1026D4F60800F6F45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C815DFD26D4F60400F6F45B /* gateway */;
+			targetProxy = 9C815E0F26D4F60800F6F45B /* PBXContainerItemProxy */;
+		};
+		9C815E1A26D4F60900F6F45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C815DFD26D4F60400F6F45B /* gateway */;
+			targetProxy = 9C815E1926D4F60900F6F45B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C815E1E26D4F60900F6F45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C815E1F26D4F60900F6F45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C815E2126D4F60900F6F45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11ADC8298F8B9D10856411F /* Pods-gateway.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gateway/Preview Content\"";
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gateway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "aws-apigateway-ios-swift/generated-src/Bridging_Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C815E2226D4F60900F6F45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFBE31ED346BD0868B962F9 /* Pods-gateway.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gateway/Preview Content\"";
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gateway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "aws-apigateway-ios-swift/generated-src/Bridging_Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C815E2426D4F60900F6F45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gatewayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gateway.app/gateway";
+			};
+			name = Debug;
+		};
+		9C815E2526D4F60900F6F45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gatewayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gateway.app/gateway";
+			};
+			name = Release;
+		};
+		9C815E2726D4F60900F6F45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gatewayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gateway;
+			};
+			name = Debug;
+		};
+		9C815E2826D4F60900F6F45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.gatewayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gateway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C815DF926D4F60400F6F45B /* Build configuration list for PBXProject "gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C815E1E26D4F60900F6F45B /* Debug */,
+				9C815E1F26D4F60900F6F45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C815E2026D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C815E2126D4F60900F6F45B /* Debug */,
+				9C815E2226D4F60900F6F45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C815E2326D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gatewayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C815E2426D4F60900F6F45B /* Debug */,
+				9C815E2526D4F60900F6F45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C815E2626D4F60900F6F45B /* Build configuration list for PBXNativeTarget "gatewayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C815E2726D4F60900F6F45B /* Debug */,
+				9C815E2826D4F60900F6F45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C815DF626D4F60400F6F45B /* Project object */;
+}
